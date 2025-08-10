@@ -1,0 +1,64 @@
+{
+  "name": "sweetstreaks",
+  "version": "1.0.0",
+  "description": "A modern, minimalistic sugar-free tracking web app with streak tracking, challenges, and milestone celebrations",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "motion": "^10.16.4",
+    "lucide-react": "^0.263.1",
+    "sonner": "^2.0.3",
+    "html2canvas": "^1.4.1",
+    "tailwindcss": "^4.0.0-alpha.25",
+    "@tailwindcss/vite": "^4.0.0-alpha.25"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "tailwindcss",
+    "health",
+    "sugar-free",
+    "habit-tracker",
+    "wellness",
+    "mobile-app",
+    "pwa"
+  ],
+  "author": {
+    "name": "SweetStreaks Team",
+    "email": "hello@sweetstreaks.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sweetstreaks/sweetstreaks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sweetstreaks/sweetstreaks/issues"
+  },
+  "homepage": "https://sweetstreaks.com",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
