@@ -36,6 +36,7 @@ export default defineConfig({
     port: 3000,
     open: true,
     host: true,
+    allowedHosts: true // ✅ Allows all hosts (works for Replit, Codesandbox, etc.)
   },
   preview: {
     port: 4173,
