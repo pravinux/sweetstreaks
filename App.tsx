@@ -13,7 +13,7 @@ import StreakShield from './components/StreakShield';
 import StreakAnalytics from './components/StreakAnalytics';
 import BottomNavigation from './components/BottomNavigation';
 import { StreakManager, StreakData, StreakStatus } from './components/StreakManager';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 interface Challenge {
   id: string;

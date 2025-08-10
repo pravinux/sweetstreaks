@@ -6,8 +6,8 @@ import { Download, Share, Copy, Home, Target, Trophy, Share2, Award } from 'luci
 import { Card } from './ui/card';
 import { Button } from './ui/button';
 import { Badge } from './ui/badge';
-import { toast } from 'sonner@2.0.3';
-import html2canvas from 'html2canvas@1.4.1';
+import { toast } from 'sonner';
+import html2canvas from 'html2canvas';
 
 interface Milestone {
   days: number;
